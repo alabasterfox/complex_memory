@@ -154,7 +154,7 @@ def load_settings():
 
 def load_character_complex_memory_hijack(character_menu, name1, name2):
     # load the character like normal
-    result = chat.load_character(character_menu, name1, name2, False)
+    result = chat.load_character(character_menu, name1, name2)
 
     # Our code
     load_pairs()
